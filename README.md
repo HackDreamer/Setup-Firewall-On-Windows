@@ -45,7 +45,7 @@ You should receive:
 
  - Go to Inbound Rules, locate Block Telnet (Port 23), and delete or disable it to restore default behavior.
 
- Expected Results
+ ✅ Expected Results
  - Port 23 traffic is blocked by the firewall while the rule is active.
  - Telnet connection to localhost on port 23 fails.
  - SSH (if enabled) is allowed through port 22.
